@@ -16,6 +16,7 @@ if [ -z "$1"]; then
 	echo "eg. $0 'centos6-64'"
 else
 	BOX=$1
+fi
 
 echo "====> Building box..."
 veewee vbox build $BOX --force
