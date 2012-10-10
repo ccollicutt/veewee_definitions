@@ -27,6 +27,7 @@ Veewee::Session.declare({
   :postinstall_files => [
     "base.sh",
     "openstack.sh",
+    "vcl.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],
